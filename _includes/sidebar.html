@@ -1,30 +1,17 @@
-<a href="#" class="sb-toggle-left">Menu
-    <span class="nav-icon"></span>
-</a>
+<div class="4u">
 
-<div class="sb-slidebar sb-left sb-style-push">
-    <nav>
-        <a href="{{ site.baseurl }}/"><h2 class="site-title">{{ site.name }}</h2></a>
-        <ul class="sb-menu">
-        {% assign pages_list = site.pages | sort:"url" %}
-        {% for node in pages_list %}
-            {% if node.title != null %}
-                {% if node.layout == "page" %}
-                <li class="sb-close {% if page.url == node.url %}active{% endif %}">
-                    <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
-                </li>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-        </ul>
+	<!-- Sidebar -->
+	{% for post in site.posts offset: 0 limit: 2 %}
+		<section class="box">
+			<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+			<header>
+				<h3>{{ post.title }}</h3>
+			</header>
+			{{ post.excerpt }}
+			<footer>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+			</footer>
+		</section>
+	{% endfor %}
 
-        <div class="site-info">
-            <p>
-                {{ site.name }} &dash; Copyright &copy; {{ site.time | date: '%Y' }}
-            </p>
-            <p>
-                Powered by Jekyll using <a href="http://github.com/SalGnt/Travelogue">Travelogue</a>
-            </p>
-        </div>
-    </nav>
 </div>
