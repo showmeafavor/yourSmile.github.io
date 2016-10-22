@@ -1,6 +1,6 @@
 ---
-title:  "Absense of light"
-subtitle: "Only lights from space"
+title:  "F"
+subtitle: "first impressions are half the battle"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/d.jpg"
