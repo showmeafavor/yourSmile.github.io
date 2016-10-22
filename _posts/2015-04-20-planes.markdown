@@ -1,12 +1,12 @@
 ---
 title:  "T"
-subtitle: "taciturn knight"
+subtitle: ""
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
 ---
 
-### Dolor sit amet?
+### taciturn knight
 
-中文, 
+
