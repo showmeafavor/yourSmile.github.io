@@ -1,6 +1,6 @@
 ---
-title:  "P"
-subtitle: "The Fly!"
+title:  "T"
+subtitle: "taciturn knight"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
