@@ -4,7 +4,7 @@ subtitle: ""
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/e.jpg"
-date:   2015-04-24 12:12:12
+date:   2016-10-22 12:12:12
 ---
 
-### Every day without you is like a book without pages 
+### every day without you is like a book without pages 
