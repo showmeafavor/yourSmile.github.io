@@ -1,10 +1,10 @@
 ---
 title:  "P"
-subtitle: "Put you in my heart"
+subtitle: ""
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/f.jpg"
 date:   2015-04-25 12:12:12
 ---
 
-### Dolor sit amet?
+### Put you in my heart
