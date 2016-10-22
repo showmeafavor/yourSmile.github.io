@@ -1,7 +1,7 @@
 ---
 title:  "T"
 subtitle: ""
-author: "Wferr"
+author: ""
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
 date:   2016-10-22 12:12:12
